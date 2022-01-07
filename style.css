@@ -1,7 +1,10 @@
 body {
+    background-color: black;
     background-image: url("BlackPaint.jpg");
     background-size:cover;
     background-repeat:repeat;
+    color: white;
+    
 }
 
 
