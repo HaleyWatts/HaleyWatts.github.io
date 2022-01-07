@@ -1,1 +1,10 @@
-background {color: blanchedalmond;} 
+body {
+    background-image: url("BlackPaint.jpg");
+    background-size:cover
+}
+
+
+
+.Forest {
+    width: 500px;
+}
