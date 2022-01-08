@@ -4,7 +4,10 @@ body {
     background-size:cover;
     background-repeat:repeat;
     color: rgb(0, 0, 0);
-}
+    text-align: center;
+    }
+
+    
 a {
     color: rgb(0, 0, 0);
     text-decoration: none;
