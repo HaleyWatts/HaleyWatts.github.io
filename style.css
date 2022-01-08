@@ -1,19 +1,19 @@
 body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     background-image: url("BlackPaint.jpg");
     background-size:cover;
     background-repeat:repeat;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 a {
-    color: rgb(170, 43, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
-    border-bottom: 2px solid rgb(170, 43, 255);
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 a:hover {
-    color: rgb(0, 132, 255);
-    border-bottom-color: rgb(0, 132, 255)
+    color: rgb(255, 86, 218);
+    border-bottom-color: rgb(255, 86, 218);
 }
 
 
