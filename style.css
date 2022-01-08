@@ -4,9 +4,17 @@ body {
     background-size:cover;
     background-repeat:repeat;
     color: white;
-    
+}
+a {
+    color: rgb(170, 43, 255);
+    text-decoration: none;
+    border-bottom: 2px solid rgb(170, 43, 255);
 }
 
+a:hover {
+    color: rgb(0, 132, 255);
+    border-bottom-color: rgb(0, 132, 255)
+}
 
 
 .Forest {
