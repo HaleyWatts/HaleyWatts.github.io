@@ -1,0 +1,47 @@
+/* 
+font-family: 'Monarcha', serif;
+font-family: 'Bungee', sans-serif;
+font-family: 'Smoothy', script;
+font-family: 'Glodok', serif;
+font-family: 'Charbroiled', serif;
+*/
+
+
+.text {
+    text-align: center;
+    line-height: 1.0;
+    color: rgb(255, 255, 255);
+   }
+ 
+   .space {
+       line-height: 3.0;
+   }
+ 
+   .highlight {
+       color:rgba(219, 16, 1, 0.918)
+   }
+ 
+   .highlight {
+     font-family: 'Charbroiled', serif;
+   }
+ body {
+     font-family: 'Monarcha', serif;
+     background-image: url(rain.jpg);
+ }
+ 
+ h1 {
+     text-align: center;
+ }
+ 
+ h1 {
+     font-family: 'Glodok', serif; 
+     color:rgb(255, 255, 255)
+ }
+ 
+ h2 {
+     font-family: 'Bungee', sans-serif;
+ }
+ 
+ h3 {
+     font-family: 'Smoothy', script;
+ }
