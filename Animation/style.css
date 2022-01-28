@@ -1,0 +1,149 @@
+Body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#Drips {
+animation-name: Drips ;
+animation-duration: 6s;
+animation-direction: alternate-reverse ;
+animation-iteration-count: infinite;
+}
+
+@keyframes Drips { 
+    0%{transform:translateY(20px);}
+    100%{transform:translateX(40px);}
+}
+
+#Drips-2 {
+    animation-name: Drips-2 ;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse ;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes Drips-2 { 
+        0%{transform:translateX(10px);}
+        100%{transform:translateY(18px);}
+    }
+
+    #Drips-3 {
+        animation-name: Drips-3 ;
+        animation-duration: 5s;
+        animation-direction: alternate-reverse ;
+        animation-iteration-count: infinite;
+        }
+        
+        @keyframes Drips-3 { 
+            0%{transform:translateX(10px);}
+            100%{transform:translateY(20px);}
+        }
+
+        #Drips-4 {
+            animation-name: Drips-4 ;
+            animation-duration: 5s;
+            animation-direction: alternate-reverse ;
+            animation-iteration-count: infinite;
+            }
+            
+            @keyframes Drips-4 { 
+                0%{transform:translateY(10px);}
+                100%{transform:translateY(40px);}
+            }
+
+#Eye-Left {
+animation-name: Eye-Left ;
+animation-duration: 1s;
+animation-direction: alternate-reverse ;
+animation-iteration-count: infinite;
+}
+                
+@keyframes Eye-Left { 
+0%{opacity: 0;}
+100%{opacity: 1;}
+}
+
+#Eye-Right {
+    animation-name: Eye-Right;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    }
+                    
+    @keyframes Eye-Right { 
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    }
+
+    #Firework1 {
+        animation-name: Firework1;
+        animation-duration: 2s;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: infinite;
+        }
+                        
+        @keyframes Firework1 { 
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+        }
+
+        #Firework2 {
+            animation-name: Firework2;
+            animation-duration: 4s;
+            animation-direction: alternate-reverse;
+            animation-iteration-count: infinite;
+            }
+                            
+            @keyframes Firework2 { 
+            0%{opacity: 0;}
+            100%{opacity: 1;}
+            }
+
+            #Firework3 {
+                animation-name: Firework3;
+                animation-duration: 5s;
+                animation-direction: alternate-reverse;
+                animation-iteration-count: infinite;
+                }
+                                
+                @keyframes Firework3 { 
+                0%{opacity: 0;}
+                100%{opacity: 1;}
+                }
+
+                #Firework4 {
+                    animation-name: Firework4;
+                    animation-duration: 3s;
+                    animation-direction: alternate-reverse;
+                    animation-iteration-count: infinite;
+                    }
+                                    
+                    @keyframes Firework4 { 
+                    0%{opacity: 0;}
+                    100%{opacity: 1;}
+                    }
+            
+                    #Firework5 {
+                        animation-name: Firework5;
+                        animation-duration: 6s;
+                        animation-direction: alternate-reverse;
+                        animation-iteration-count: infinite;
+                        }
+                                        
+                        @keyframes Firework5 { 
+                        0%{opacity: 0;}
+                        100%{opacity: 1;}
+                        }
+            
+                        #Firework6 {
+                            animation-name: Firework6;
+                            animation-duration: 7s;
+                            animation-direction: alternate-reverse;
+                            animation-iteration-count: infinite;
+                            }
+                                            
+                            @keyframes Firework6 { 
+                            0%{opacity: 0;}
+                            100%{opacity: 1;}
+                            }
