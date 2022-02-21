@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(0, 0, 0);
+    background-size:cover;
+    background-repeat:repeat;
+    color: rgb(0, 0, 0);
+
+    }
+h1 {
+text-align: center;
+color: white;
+line-height: 100px;
+font-size: 50px;
+
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    line-height: 10px;
+    font-size: 20px;
+}
+
+
+.column {
+    width: 500px;
+    color: white;
+}
+
+.character {
+    width: 300px;
+    padding: 20px;
+    
+}
