@@ -1,5 +1,8 @@
+
+
 body {
     background-color: black;
+    cursor: url("EomerSword.cur"), url(EomerSword.png), default
 }
 
 h1 {
@@ -7,4 +10,10 @@ h1 {
 text-align: center;
 color: white;
 
+}
+
+h3 {
+    padding: 70px;
+    text-align: center;
+    color: white
 }

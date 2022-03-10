@@ -3,6 +3,7 @@ body {
     background-size:cover;
     background-repeat:repeat;
     color: rgb(0, 0, 0);
+  
 
     }
 h1 {
@@ -23,18 +24,27 @@ h2 {
 h3 {
     text-align: center;
     color: white;
-    line-height: 10px;
+    line-height: 30px;
     font-size: 20px;
 }
 
 
 .column {
-    width: 500px;
     color: white;
 }
 
-.character {
-    width: 300px;
-    padding: 20px;
-    
+.row {
+    display: flex;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 5px;
+  }
+
+img {
+    width: 100%;
+
 }
