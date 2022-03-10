@@ -15,3 +15,16 @@ h3 {
     text-align: center;
     color: white;
 }
+
+h3 {
+
+    animation-name: quote ;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse ;
+    animation-iteration-count: infinite;
+    }
+                    
+    @keyframes quote { 
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+    }
