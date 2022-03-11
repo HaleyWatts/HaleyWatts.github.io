@@ -1,0 +1,75 @@
+* {
+    align-items: center;
+    padding: 10px;
+
+}
+
+body {
+    text-align: center;
+}
+
+#right-wheel, #left-wheel {
+
+    animation: wheel 2s infinite linear ;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes wheel{
+    from{
+        transform: rotateZ(360deg);
+
+    }
+    to{
+        transform: rotateZ(0deg);
+    }
+}
+
+#Background-Shape1 {
+    animation-name: Background-Shape1;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse ;
+    animation-iteration-count: infinite;
+    }
+    
+    @keyframes Background-Shape1 { 
+        0%{transform:translateX(0px);}
+        100%{transform:translateY(60px);}
+    }
+
+    #Background-Shape2 {
+        animation-name: Background-Shape1;
+        animation-duration: 2s;
+        animation-direction:alternate-reverse;
+        animation-iteration-count: infinite;
+        }
+        
+        @keyframes Background-Shape1 { 
+            0%{transform:translateX(0px);}
+            100%{transform:translateY(20px);}
+        }
+
+#Plant-Balls-Green{
+
+    animation-name: PlantBallsGreen;
+    animation-duration: 1s;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite;
+    }
+
+    @keyframes PlantBallsGreen { 
+        0%{opacity: 0;}
+        100%{opacity: 1;}   
+    }
+
+#Plant-Balls{
+    animation-name: PlantBalls;
+    animation-duration: 1.5s;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes PlantBalls { 
+    0%{opacity: 0;}
+    100%{opacity: 1;}   
+}
